@@ -1,0 +1,5 @@
+package: github.com/devfacet/gorate
+import:
+- package: golang.org/x/time
+  subpackages:
+  - rate

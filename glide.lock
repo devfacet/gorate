@@ -1,0 +1,12 @@
+hash: ff4e40c90b95501f34660399af624cc97d44f8f9c43cfbc61d944ba275cdbc98
+updated: 2018-06-15T21:48:05.448452-04:00
+imports:
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - context
+- name: golang.org/x/time
+  version: 6dc17368e09b0e8634d71cac8168d853e869a0c7
+  subpackages:
+  - rate
+testImports: []

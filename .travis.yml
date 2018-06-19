@@ -1,0 +1,13 @@
+sudo: false
+
+language: go
+go:
+  - "1.10"
+
+before_install:
+  - curl https://glide.sh/get | sh
+
+script:
+  - glide install
+  - go build .
+  - ./test.sh
